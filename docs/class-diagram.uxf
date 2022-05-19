@@ -1,18 +1,54 @@
-<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>310</x><y>200</y><w>230</w><h>160</h></coordinates><panel_attributes>Attraction
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;361&lt;/x&gt;&lt;y&gt;230&lt;/y&gt;&lt;w&gt;180&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;160;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;240&lt;/x&gt;&lt;y&gt;120&lt;/y&gt;&lt;w&gt;190&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=&amp;lt;&amp;lt;-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;170;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;330&lt;/x&gt;&lt;y&gt;30&lt;/y&gt;&lt;w&gt;260&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;240;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;220&lt;/x&gt;&lt;y&gt;340&lt;/y&gt;&lt;w&gt;140&lt;/w&gt;&lt;h&gt;160&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;Attraction
 --
 - id : string
 - name: string
+- opened: bool
 - last_wait_time : int
-- </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>10</y><w>210</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Stereotype&gt;&gt;
-Package::FatClass
-{Some Properties}
 --
--id: Long
-_-ClassAttribute: Long_
++ getId(): string
++ getName(): string
++ getOpened(): bool
++ getLastWaitTime(): int&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;20&lt;/x&gt;&lt;y&gt;20&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;SimpleClass&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;360&lt;/x&gt;&lt;y&gt;280&lt;/y&gt;&lt;w&gt;250&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;230;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;300&lt;/x&gt;&lt;y&gt;720&lt;/y&gt;&lt;w&gt;280&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;260;10&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;UMLClass&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;860&lt;/x&gt;&lt;y&gt;780&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;30&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;WaitTime&lt;/panel_attributes&gt;&lt;additional_attributes&gt;&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;</help_text><element><id>UMLClass</id><coordinates><x>211</x><y>340</y><w>140</w><h>160</h></coordinates><panel_attributes>Attraction
 --
-#Operation(i: int): int
-/+AbstractOperation()/
+- id : string
+- name: string
+- opened: bool
+- last_wait_time : int
 --
-Responsibilities
--- Resp1
-*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element></diagram>
++ getId(): string
++ getName(): string
++ getOpened(): bool
++ getLastWaitTime(): int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>591</x><y>200</y><w>290</w><h>70</h></coordinates><panel_attributes>[PARKNAME]Service
+--
+- [PARKNAME]Repository: [PARKNAME]Repository
+--
+GetWaitTimes(): array&lt;Attraction&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>601</x><y>10</y><w>250</w><h>50</h></coordinates><panel_attributes>[PARKNAME]Repository
+--
+GetWaitTimes(): array&lt;[PARKNAME]Model&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>181</x><y>0</y><w>190</w><h>80</h></coordinates><panel_attributes>[PARKNAME]Model
+--
+The implementation of this class 
+heavily depends on the format 
+that the external API uses.</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>361</x><y>30</y><w>260</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;240;10</additional_attributes></element><element><id>Relation</id><coordinates><x>341</x><y>350</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>121</x><y>210</y><w>320</w><h>50</h></coordinates><panel_attributes>[PARKNAME]ModelMapper
+--
++ toDomainObject(model: [PARKNAME]Model): Attraction</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>271</x><y>250</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>431</x><y>230</y><w>180</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>341</x><y>230</y><w>200</w><h>220</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;200;180;200;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>271</x><y>70</y><w>30</w><h>160</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;140;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>721</x><y>50</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;150;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>601</x><y>690</y><w>250</w><h>70</h></coordinates><panel_attributes>[PARKNAME]Controller
+--
+- [PARKNAME]Service: [PARKNAME]Service
+--
++ displayWaitTimes(): ResponseInterface</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>211</x><y>651</y><w>140</w><h>160</h></coordinates><panel_attributes>AttractionDTO
+--
+- id : string
+- name: string
+- opened: bool
+- last_wait_time : int
+--
++ getId(): string
++ getName(): string
++ getOpened(): bool
++ getLastWaitTime(): int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>271</x><y>800</y><w>350</w><h>100</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;80;330;80</additional_attributes></element><element><id>Relation</id><coordinates><x>722</x><y>262</y><w>30</w><h>450</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;430</additional_attributes></element><element><id>UMLClass</id><coordinates><x>602</x><y>840</y><w>250</w><h>70</h></coordinates><panel_attributes>WaitTimeView
+--
++ WaitTimeView(data: array&lt;AttractionDTO&gt;)
++ asResponse(): ResponseInterface
+/+ getViewData(): array&lt;mixed&gt;/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>622</x><y>990</y><w>210</w><h>70</h></coordinates><panel_attributes>/AbstractJSONView/
+--
++ asResponse(): ResponseInterface
+/+ getViewData(): array&lt;mixed&gt;/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>902</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>752</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element></diagram>
