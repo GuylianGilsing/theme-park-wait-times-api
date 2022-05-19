@@ -1,0 +1,36 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "./src/App",
+            "App\\Presentation\\": "./src/App/Presentation",
+            "App\\Presentation\\Controllers\\": "./src/App/Presentation/Controllers",
+            "App\\Presentation\\DTO\\": "./src/App/Presentation/DTO",
+            "App\\Presentation\\Layouts\\": "./src/App/Presentation/Layouts",
+            "App\\Presentation\\Middleware\\": "./src/App/Presentation/Middleware",
+            "App\\Presentation\\Views\\": "./src/App/Presentation/Views",
+            "Framework\\": "./src/Framework",
+            "Framework\\Helpers\\": "./src/Framework/Helpers",
+            "Framework\\Markers\\": "./src/Framework/Markers"
+        }
+    },
+    "require": {
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5",
+        "php-di/php-di": "^6.4",
+        "php-di/slim-bridge": "^3.2",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "require-dev": {
+        "nunomaduro/phpinsights": "^2.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "code:win-insights-cli": "./vendor/bin/phpinsights.bat analyse -v",
+        "code:lin-insights-cli": "./vendor/bin/phpinsights analyse -v",
+        "code:win-insights-json": "./vendor/bin/phpinsights.bat analyse -v --format=json > phpinsights.json"
+    }
+}
